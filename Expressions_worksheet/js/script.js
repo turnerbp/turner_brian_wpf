@@ -11,4 +11,5 @@ var dogYears = 7;
 // Sparkys age divided by Dog Years
 var actualAge = sparkysAge / dogYears;
 // Result of Sparkys age Divided by Dog Years
-console.log (actualAge);
+// print out the output of the Dogs Age
+console.log ("The Dogs age is " + actualAge);
