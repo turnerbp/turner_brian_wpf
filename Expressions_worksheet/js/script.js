@@ -46,6 +46,21 @@ var sparkySlice =  pizzaOrdered * totalSlices - slicesPizza * numPeople;
 console.log ("Sparky got " + sparkySlice + " slices of Pizza");
 
 
+//Grocery Budget
+
+var groceryBills = [125 + 75 + 55 + 60 + 95]
+
+var totalBill = groceryBills;
+
+var totalWeek = 5;
+
+var avgWeek = totalBill / totalWeek;
+
+// Print "You have spent a total of x on groceries over 5 weeks. That is an average of x per week"
+// total bill and your total average
+console.log("You have spent a total of $" + totalBill + " on groceries over 5 weeks. That is an average of $"
++ avgWeek +" per week");
+
 
 
 
