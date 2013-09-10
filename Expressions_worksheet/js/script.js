@@ -17,15 +17,16 @@ console.log ("The Dogs age is " + actualAge);
 
 // pizza part 1
 
+//number of pizzas ordered
+var pizzaOrdered = 8;
 //number of slices per pizza
-var pSlice = 8;
+var slicesPizza = 8;
 //number of people at the party
 var numPeople = 27;
 //number of slices per person
-var perPerson = 2;
-//number of pizzas ordered
-var pizzOrdered = perPerson * numPeople / pSlice;
+var pizzaSlice =  pizzaOrdered * slicesPizza / numPeople;
 //total pizza ordered
 //print out the output "I ordered a total of "
-console.log ("I ordered a total of " + pizzOrdered + " Pizzas");
+console.log ("Each person ate " + pizzaSlice + " slices of pizza at the party.");
+
 
