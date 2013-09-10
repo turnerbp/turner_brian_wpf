@@ -61,6 +61,30 @@ var avgWeek = totalBill / totalWeek;
 console.log("You have spent a total of $" + totalBill + " on groceries over 5 weeks. That is an average of $"
 + avgWeek +" per week");
 
+//Discounts
+
+//this is the original price of the item.
+var orgPrice = 600;
+// this is the Discount Tax to be Printed
+var printDis = 20
+//this is the discount on the product.
+var disPercent = .20;
+//this is the description of the item.
+var blSuit = "Black Suite with Window Pain";
+//this is the Sales Tax on the item
+var salTax = .09;
+//this is the discount on the suit
+var disAmount = orgPrice  * disPercent;
+//this is the discount price
+var disPrice = orgPrice - disAmount;
+//this is the amount of tax
+var totalTax = disPrice * salTax;
+//This is the total price with tax
+var totalPrice = disPrice + totalTax;
+//This is the total Price
+//Print "Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax"
+console.log ("Your " + blSuit + " was originally $" + orgPrice + " but after a " + printDis + "% discount,"
++ "it is now $" + disPrice + " without tax, and $" + totalPrice + " with tax.")
 
 
 
