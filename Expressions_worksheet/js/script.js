@@ -48,14 +48,14 @@ console.log ("Sparky got " + sparkySlice + " slices of Pizza");
 
 //Grocery Budget
 
+//Money spent on your 5 grocery bills
 var groceryBills = [125 + 75 + 55 + 60 + 95]
-
+//Added you grocery bills together to get your total Bill
 var totalBill = groceryBills;
-
+// set your total weeks to 5
 var totalWeek = 5;
-
+//found out your average per week. total bill divided your total week.
 var avgWeek = totalBill / totalWeek;
-
 // Print "You have spent a total of x on groceries over 5 weeks. That is an average of x per week"
 // total bill and your total average
 console.log("You have spent a total of $" + totalBill + " on groceries over 5 weeks. That is an average of $"
