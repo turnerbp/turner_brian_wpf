@@ -30,3 +30,23 @@ var pizzaSlice =  pizzaOrdered * slicesPizza / numPeople;
 console.log ("Each person ate " + pizzaSlice + " slices of pizza at the party.");
 
 
+//Pizza Part II
+//Number of Pizzas ordered
+var pizzaOrdered = 8;
+//total number of slices per pizza
+var totalSlices = 8;
+//Number of slices per person.
+var slicesPizza = 2;
+//Number of people at the party.
+var numPeople = 27;
+//Number of slices for Sparky
+var sparkySlice =  pizzaOrdered * totalSlices - slicesPizza * numPeople;
+//total slices
+//Print "Sparky got X slices of Pizza.
+console.log ("Sparky got " + sparkySlice + " slices of Pizza");
+
+
+
+
+
+
