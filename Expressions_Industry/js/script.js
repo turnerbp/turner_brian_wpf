@@ -8,7 +8,7 @@
 //I will show The Time is takes, The amount of gas, and how my time and gas per month.
 
 //How many miles to the job
-var milesJob = 123;
+var milesJob = prompt("Enter the total miles it takes you to get to work");
 //Average Driving Speed
 var drivingSpeed = 75;
 //Average mile per gallon
