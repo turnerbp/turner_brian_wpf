@@ -16,6 +16,8 @@ var runWeek = prompt("How man times do you run per week?")
 var runTime = prompt("How many minutes do you run for?")
 //This is asking how many weeks in the month you are exercising in.
 var monthWeeks = prompt("How many weeks in the month you are exercising in?")
+//This will calculate the amount of hours I practice per week.
+var dancePracticeHrsPerWeek = dancePractice * danceHours;
 
 //This is the final print to show the results.
 console.log (dancePractice + danceHours + runWeek + runTime + monthWeeks)
