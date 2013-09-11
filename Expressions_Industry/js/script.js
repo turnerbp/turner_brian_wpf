@@ -14,11 +14,14 @@ var drivingSpeed = 75;
 //Average mile per gallon
 var averageGallon = 22;
 //Amount of times per month I went
-var amoutTimes = 4;
+var amountTimes = 4;
 //calculate the amount of time it took
 var hoursTime = milesJob / drivingSpeed;
 //calculate the amount of gas I will need to get there
 var gasNeed = milesJob / averageGallon;
-//
-
-console.log ("It took me " + hoursTime + " to get to my job and I needed " + gasNeed + " gallons of gas.");
+//Amount of time per month on road.
+var timePerMonth = hoursTime * amountTimes;
+//Amount of Gas I need per month.
+var gasPerMonth = gasNeed * amountTimes;
+//Print It too me x hours to get to my job and I need x gallons of gas. I spend x hours of driving time and use gallons of gas per month
+console.log ("It took me " + hoursTime + " hours to get to my job and I needed " + gasNeed + " gallons of gas." + " I spend " + timePerMonth + " hours of driving time and use " + gasPerMonth +  " gallons of gas per month.");
