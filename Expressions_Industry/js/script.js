@@ -14,7 +14,7 @@ var drivingSpeed = prompt("What is your Driving speed");
 //Average mile per gallon
 var averageGallon = prompt("What is your average gallon per mile?");
 //Amount of times per month I went
-var amountTimes = 4;
+var amountTimes = prompt("How many times do you drive to work?");
 //calculate the amount of time it took
 var hoursTime = milesJob / drivingSpeed;
 //calculate the amount of gas I will need to get there
