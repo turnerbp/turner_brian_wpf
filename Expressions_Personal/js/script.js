@@ -20,7 +20,9 @@ var monthWeeks = prompt("How many weeks in the month you are exercising in?");
 var dancePracticeHrsPerWeek = dancePractice * danceHours;
 //This will calculate the amount of hours you run per week.
 var runMinsPerWeek = runWeek *  runTime
+//This will calculate the amount of time per month I dance
+var dancePerMonth = monthWeeks * dancePractice
 
 //This is the final print to show the results.
-console.log (dancePractice + danceHours + runWeek + runTime + monthWeeks + dancePracticeHrsPerWeek + runMinsPerWeek);
+console.log (dancePractice + danceHours + runWeek + runTime + monthWeeks + dancePracticeHrsPerWeek + runMinsPerWeek + dancePerMonth);
 
