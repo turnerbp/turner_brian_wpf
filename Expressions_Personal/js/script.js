@@ -21,7 +21,7 @@ var dancePracticeHrsPerWeek = dancePractice * danceHours;
 //This will calculate the amount of hours you run per week.
 var runMinsPerWeek = runWeek *  runTime ;
 //This will calculate the amount of time per month I dance
-var dancePerMonth = monthWeeks * dancePractice;
+var dancePerMonth = dancePractice * monthWeeks;
 //This will calculate the amount of hours a month I practice
 var danceHrsPerMonth = danceHours * monthWeeks;
 //This will calculate the amount of Days I run per month
