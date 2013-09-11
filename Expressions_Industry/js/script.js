@@ -31,4 +31,4 @@ var timesPerMonth = monthWeeks * timePerWeek;
 var gasPerMonth = gasPerWeek * monthWeeks;
 
 //Print It too me x hours to get to my job and I need x gallons of gas. I spend x hours of driving time and use gallons of gas per month
-console.log ("It took me " + hoursTime + " hours to get to my job and I needed " + gasNeed + " gallons of gas." + " I spend " + timePerWeek + " hours of driving time and use " + gasPerWeek +  " gallons of gas per week." + " It also took you " + timesPerMonth + "hours per month.");
+console.log ("It took me " + hoursTime + " hours to get to my job and I needed " + gasNeed + " gallons of gas." + " I spend " + timePerWeek + " hours of driving time and use " + gasPerWeek +  " gallons of gas per week." + " It also took you " + timesPerMonth + " hours " + gasPerMonth + );
