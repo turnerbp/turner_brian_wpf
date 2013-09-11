@@ -16,5 +16,5 @@ var runWeek = prompt("How man times do you run per week?")
 var runTime = prompt("How many minutes do you run for?")
 
 //This is the final print to show the results.
-console.log (dancePractice + danceHours + runWeek)
+console.log (dancePractice + danceHours + runWeek + runTime)
 
