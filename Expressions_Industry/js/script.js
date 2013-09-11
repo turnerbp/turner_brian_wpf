@@ -21,9 +21,9 @@ var monthWeeks = prompt("How many weeks are in the Month you are Calculating?")
 var hoursTime = milesJob / drivingSpeed;
 //calculate the amount of gas I will need to get there
 var gasNeed = milesJob / averageGallon;
-//Amount of time per month on road.
+//Amount of time per week on road.
 var timePerWeek = hoursTime * amountTimes;
-//Amount of Gas I need per month.
+//Amount of Gas I need per week.
 var gasPerWeek = gasNeed * amountTimes;
 //Amount of time per month on the road.
 var timesPerMonth = monthWeeks * timePerWeek;
