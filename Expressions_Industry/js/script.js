@@ -10,7 +10,7 @@
 //How many miles to the job
 var milesJob = prompt("Enter the total miles it takes you to get to work");
 //Average Driving Speed
-var drivingSpeed = 75;
+var drivingSpeed = prompt("What is your Driving speed");
 //Average mile per gallon
 var averageGallon = 22;
 //Amount of times per month I went
