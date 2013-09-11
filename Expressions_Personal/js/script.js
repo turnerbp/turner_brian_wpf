@@ -30,5 +30,5 @@ var runDaysPerMonth = runWeek * monthWeeks;
 var runMinsPerMonth = runTime * monthWeeks;
 
 //This is the final print to show the results.
-console.log ("I have dance practice " + dancePractice+ " times per week and dance " + dancePracticeHrsPerWeek + " hours per week." + " I run " + runWeek + "times per week and "+ runMinsPerWeek + " minutes per week." + "I dance " + dancePerMonth + " per month and " + danceHrsPerMonth + " hours per month. " + "I run " + runDaysPerMonth + "days per month and "+ runMinsPerMonth);
+console.log ("I have dance practice " + dancePractice+ " times per week and dance " + dancePracticeHrsPerWeek + " hours per week." + " I run " + runWeek + "times per week and "+ runMinsPerWeek + " minutes per week." + "I dance " + dancePerMonth + " per month and " + danceHrsPerMonth + " hours per month. " + "I run " + runDaysPerMonth + "days per month and " + "run " + runMinsPerMonth + "minutes per month.");
 
