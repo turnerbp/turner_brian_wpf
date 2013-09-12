@@ -12,3 +12,5 @@ var bassDrumPrice = [30.49 + 31.49 + 33.49 + 37.95 + 46.49];
 var tenorDrumPrice = [12.95 + 14.95 + 15.95 + 16.49 + 17.49];
 //the will add the price of the standard size snare drum heads (14inch top and bottom).
 var snareDrumPrice = [34.95 + 45.95];
+//creating a prompt to ask how many times you will change your drum heads in one season.
+var changeTimes = prompt("How many times will your change your drum heads in one season?");
