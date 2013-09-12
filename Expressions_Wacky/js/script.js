@@ -22,5 +22,8 @@ var tenorMarch = prompt("How many quads will you be marching?");
 var bassCost = bassDrumPrice * changeTimes;
 //this will determine the price of the snare heads for the amount marching
 var snareDrumCost = snareDrumPrice * snareMarch;
+//this will determine the cost of the total snare heads for the season
+var snareDrumTotal = snareDrumCost * changeTimes;
+
 
 
