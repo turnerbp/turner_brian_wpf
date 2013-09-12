@@ -18,3 +18,6 @@ var changeTimes = prompt("How many times will your change your drum heads in one
 var snareMarch = prompt("How many snare drums will you be marching?");
 //creating a prompt to ask how many tenors you will be marching.
 var tenorMarch = prompt("How many quads will you be marching?");
+//this will determine the the bass drum cost. This will assume you are marching the standard 5 bass drums.
+var bassCost = bassDrumPrice * changeTimes;
+
