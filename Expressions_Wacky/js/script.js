@@ -32,7 +32,7 @@ var quadDrumTotal = quadDrumCost * changeTimes;
 var headsTotalCost = bassCost + snareDrumTotal + quadDrumTotal;
 
 //this will print the total cost of each and then also print the total cost.
-console.log (headsTotalCost);
+console.log ("The Bass Drum Heads will cost you " + bassCost + "." +  "The Snare Drum Heads will cost you " + snareDrumTotal + ".");
 
 
 
