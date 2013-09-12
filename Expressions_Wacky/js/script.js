@@ -14,3 +14,5 @@ var tenorDrumPrice = [12.95 + 14.95 + 15.95 + 16.49 + 17.49];
 var snareDrumPrice = [34.95 + 45.95];
 //creating a prompt to ask how many times you will change your drum heads in one season.
 var changeTimes = prompt("How many times will your change your drum heads in one season?");
+//creating a prompt to ask how many snare drums you will be marching.
+var snareMarch = prompt("How man snare drums will you be marching?");
