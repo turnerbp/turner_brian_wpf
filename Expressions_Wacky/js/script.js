@@ -20,4 +20,7 @@ var snareMarch = prompt("How many snare drums will you be marching?");
 var tenorMarch = prompt("How many quads will you be marching?");
 //this will determine the the bass drum cost. This will assume you are marching the standard 5 bass drums.
 var bassCost = bassDrumPrice * changeTimes;
+//this will determine the price of the snare heads for the amount marching
+var snareDrumCost = snareDrumPrice * snareMarch;
+
 
