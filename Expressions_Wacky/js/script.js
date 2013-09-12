@@ -24,6 +24,9 @@ var bassCost = bassDrumPrice * changeTimes;
 var snareDrumCost = snareDrumPrice * snareMarch;
 //this will determine the cost of the total snare heads for the season
 var snareDrumTotal = snareDrumCost * changeTimes;
+//this will determine the price of the quad heads for the amount marching
+var quadDurmCost = quadDrumPrice * tenorMarch;
+
 
 
 
