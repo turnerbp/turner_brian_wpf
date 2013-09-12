@@ -29,9 +29,10 @@ var quadDrumCost = quadDrumPrice * tenorMarch;
 //this will determine the total price of the quad heads for the season.
 var quadDrumTotal = quadDrumCost * changeTimes;
 //this will added the snare,bass and quad drum prices together to get a total cost of all drum heads ordered.
-    var headsTotalCost = bassCost + snareDrumTotal + quadDrumTotal;
+var headsTotalCost = bassCost + snareDrumTotal + quadDrumTotal;
 
-//this will print the total price and
+//this will print the total cost of each and then also print the total cost.
+console.log (bassCost + snareDrumTotal + quadDrumTotal + headsTotalCost);
 
 
 
