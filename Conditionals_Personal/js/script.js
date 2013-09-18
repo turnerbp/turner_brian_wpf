@@ -13,5 +13,12 @@ var personAge = prompt("What is your age?");
 var partyPerWeek = prompt("How many times do you party per week?");
 //prompt to ask how many hours you study in a week
 var studyHours = prompt("How many hours do you study?");
+//minimum age required to be in apartment
+var apartmentAge = 20
+//minimum hours of stud required to be in apartment
+var minimumStudy = 25
+
+
+
 
 
