@@ -17,4 +17,10 @@ var seatsBus = prompt("How many seats are on a bus?");
 var totalRiders = studentsHave++ + parentsRide++;
 //calculate the amount of buses you will need
 var amountBuses = totalRiders / seatsBus;
-console.log(amountBuses);
+//amount of buses ordered
+var busOrdered = 2
+if(amountBuses <= busOrdered){
+    console.log("You don't need to reserve any more buses");
+}else{
+    console.log("You need to reserve more buses");
+}
