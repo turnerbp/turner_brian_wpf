@@ -1,8 +1,12 @@
 /**
  * Brian Turner
  * 9/18/13
- * Time: 10:14 AM
+ * Assignment Conditionals
+ * Conditionals Personal
  */
 
-//Conditionals Personal
+//College Apartment Application
+
+//Prompt to see what the age of the person is
+var personAge = prompt("What is your age?")
 
