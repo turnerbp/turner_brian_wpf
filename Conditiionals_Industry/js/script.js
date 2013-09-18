@@ -29,5 +29,5 @@ if(amountBuses <= busOrdered){
     console.log("You don't need to reserve any more buses");
 }else{
     //print if amount is > "You need to reserve more buses"
-    console.log("You need to reserve " + newBuses + " more buses");
+    console.log("You need to reserve " + newBusesRoundUp + " more buses");
 }
