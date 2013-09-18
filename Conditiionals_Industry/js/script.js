@@ -15,4 +15,6 @@ var parentsRide = prompt("How many parents are going to ride the bus?");
 var seatsBus = prompt("How many seats are on a bus?");
 //calculate the total amount of people riding the bus.
 var totalRiders = studentsHave++ + parentsRide++;
-console.log(totalRiders);
+//calculate the amount of buses you will need
+var amountBuses = totalRiders / seatsBus;
+console.log(amountBuses);
