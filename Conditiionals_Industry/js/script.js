@@ -21,6 +21,7 @@ var amountBuses = totalRiders / seatsBus;
 var busOrdered = 2
 //else/if statement
 if(amountBuses <= busOrdered){
+    //print if amount is <= "You don't need reserve any more buses"
     console.log("You don't need to reserve any more buses");
 }else{
     console.log("You need to reserve more buses");
