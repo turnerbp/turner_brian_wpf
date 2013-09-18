@@ -19,6 +19,7 @@ var totalRiders = studentsHave++ + parentsRide++;
 var amountBuses = totalRiders / seatsBus;
 //amount of buses ordered
 var busOrdered = 2
+//else/if statement
 if(amountBuses <= busOrdered){
     console.log("You don't need to reserve any more buses");
 }else{
