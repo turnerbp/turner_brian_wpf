@@ -11,5 +11,8 @@
 var amountSuits = prompt"How many suits do you have?";
 //prompt to ask how many ties you have
 var amountTies = prompt"HOw many ties do you have?";
+//calculate the amount of suit to tie ratio
+var suitTieAmount = amountSuits - amountTies;
+
 
 
