@@ -17,6 +17,9 @@ var studyHours = prompt("How many hours do you study?");
 var apartmentAge = 20
 //minimum hours of stud required to be in apartment
 var minimumStudy = 25
+//maximum party hours per week
+var maximumParty = 10
+
 
 
 
