@@ -18,4 +18,4 @@ var suitTieAmount = amountTies - amountSuits;
 var suitShirtAmount = amountShirts - amountSuits;
 //calculate the dress shirt to tie ratio
 var shirtTieAmount = amountTies - amountShirts;
-console.log(suitTieAmount);
+console.log(suitShirtAmount);
