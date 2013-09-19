@@ -26,3 +26,9 @@ if(suitShirtAmount <= shirtTieAmount && suitTieAmount < amountSuits){
     //added print statement to the else " Buy more Shirts and Ties"
     console.log("You do not need to buy more shirts or ties!");
 }
+//adding second if/else statement
+if(){
+
+}else{
+
+}
