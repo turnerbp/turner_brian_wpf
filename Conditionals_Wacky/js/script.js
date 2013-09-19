@@ -31,5 +31,5 @@ if(amountSuits < 5){
       //adding a print statement say you should buy more suits
     console.log("You need to buy more Suits!")
 }else{
-    console.log("nothing")
+    console.log("You do not need to buy anymore Suits!")
 }
