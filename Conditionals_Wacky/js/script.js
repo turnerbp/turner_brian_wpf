@@ -7,7 +7,7 @@
 //Calculate how many suits you have and how many ties you need.
 
 //prompted asking how many suits you have
-var amountSuits = prompt("How many suits do you have?");
+var amountSuits = prompt("How many suits do you currently own?");
 //prompt to ask how many ties you have
 var amountTies = prompt("How many ties do you have?");
 //ask how many dress shirts do you have
