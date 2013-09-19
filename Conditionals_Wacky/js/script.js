@@ -15,4 +15,7 @@ var amountShirts = prompt("How many dress shirts do you have?");
 //calculate the amount of suit to tie ratio
 var suitTieAmount = amountTies - amountSuits;
 //calculate the dress shirt to Tie Ratio
-var suitShirtAmoung = amountShirts - amountSuits;
+var suitShirtAmount = amountShirts - amountSuits;
+//calculate the dress shirt to tie ratio
+var shirtTieAmount = amountTies - amountShirts;
+console.log(suitTieAmount);
