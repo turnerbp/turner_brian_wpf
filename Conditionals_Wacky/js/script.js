@@ -23,5 +23,5 @@ if(suitShirtAmount <= shirtTieAmount && suitTieAmount < amountSuits){
     //added print statement if Shirt and Tie amount are less than Suits
    console.log("You need to buy some more Dress Shirt and Ties!")
 }else{
-    console.log("Nothing")
+    console.log("You do not need to buy more shirts or ties!")
 }
