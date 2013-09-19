@@ -22,4 +22,6 @@ var shirtTieAmount = amountTies - amountShirts;
 if(suitShirtAmount <= shirtTieAmount && suitTieAmount < amountSuits){
     //added print statement if Shirt and Tie amount are less than Suits
    console.log("You need to buy some more Dress Shirt and Ties!")
-}else
+}else{
+    console.log("Nothing")
+}
