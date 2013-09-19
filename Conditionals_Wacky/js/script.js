@@ -19,7 +19,7 @@ var suitShirtAmount = amountShirts - amountSuits;
 //calculate the dress shirt to tie ratio
 var shirtTieAmount = amountTies - amountShirts;
 //if/else statement added
-if()
-{
-
+if(suitShirtAmount <= shirtTieAmount && suitTieAmount < amountSuits){
+    //added print statement if Shirt and Tie amount are less than Suits
+   console.log("You need to buy some more Dress Shirt and Ties!")
 }else
