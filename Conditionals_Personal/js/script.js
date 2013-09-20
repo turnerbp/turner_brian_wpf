@@ -19,6 +19,7 @@ var monthSave = prompt("How many months do you want to save?")
 var moneyLeft = monthlyIncome - houseBudget;
 //calculate money left over minus the furniture price to see how much left you need to buy the furniture
 var moneyNeeded = furniturePrice - moneyLeft;
-
+//calculation to see how much you need to save per month
+var savePerMonth = furniturePrice / monthSave;
 console.log(moneyNeeded);
 
