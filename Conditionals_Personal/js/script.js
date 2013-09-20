@@ -15,5 +15,7 @@ var houseBudget = prompt("What is you monthly house hold budget?");
 var monthlyIncome = prompt("What is the monthly house hold income?");
 //calculating the amount of money you have after you pay your bills
 var moneyLeft = monthlyIncome - houseBudget;
-
+//calculate money left over minus the furniture price to see how much left you need to buy the furniture
+var moneyNeeded = furniturePrice - moneyLeft;
+console.log(moneyNeeded);
 
