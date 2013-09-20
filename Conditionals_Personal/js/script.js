@@ -21,5 +21,5 @@ var moneyLeft = monthlyIncome - houseBudget;
 var moneyNeeded = furniturePrice - moneyLeft;
 //calculation to see how much you need to save per month
 var savePerMonth = furniturePrice / monthSave;
-(moneyLeft > furniturePrice) ?  console.log("You have enough money to buy the furniture!")  : console.log("You need to save more money.")
+(moneyLeft > furniturePrice) ?  console.log("You have enough money to buy the furniture!")  : console.log("You have " + moneyLeft + " and need " + moneyNeeded + " more to buy the furniture")
 
