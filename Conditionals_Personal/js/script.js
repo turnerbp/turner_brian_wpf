@@ -13,6 +13,7 @@ var furniturePrice = prompt("What is the price of the furniture you are wanting 
 var houseBudget = prompt("What is you monthly house hold budget?");
 //Added Prompt to ask the Monthly Income.
 var monthlyIncome = prompt("What is the monthly house hold income?");
-
+//calculating the amount of money you have after you pay your bills
+var moneyLeft = monthlyIncome - houseBudget;
 
 
