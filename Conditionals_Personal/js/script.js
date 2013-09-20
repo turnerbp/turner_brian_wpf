@@ -21,5 +21,5 @@ var moneyLeft = monthlyIncome - houseBudget;
 var moneyNeeded = furniturePrice - moneyLeft;
 //calculation to see how much you need to save per month
 var savePerMonth = furniturePrice / monthSave;
-console.log(moneyNeeded);
+console.log(savePerMonth);
 
