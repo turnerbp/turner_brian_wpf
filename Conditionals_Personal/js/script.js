@@ -12,7 +12,7 @@ var furniturePrice = prompt("What is the price of the furniture you are wanting 
 //Added Prompt to ask the total House Budget.
 var houseBudget = prompt("What is you monthly house hold budget?");
 //Added Prompt to ask the Monthly Income.
-var monthlyIncome = prompt("What is the monthly house hold income?");
+var monthlyIncome = prompt("What is your monthly house hold income?");
 //Added prompt to ask how many months you want to save money
 var monthSave = prompt("How many months do you want to save before you can buy the furniture?");
 //calculating the amount of money you have after you pay your bills
