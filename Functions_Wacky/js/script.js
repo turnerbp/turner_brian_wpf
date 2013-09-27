@@ -15,3 +15,6 @@ var calcTime = function(totalTimeEach, totalWarm){
     return time;
 }
 var totalTime = calcTime(warmupLength,warmUpTotal);
+(totalTime > 200) ? console.log("You warm-ups are way to long!") : console.log("You warm-ups are long enough.");
+
+
