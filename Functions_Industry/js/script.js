@@ -11,7 +11,7 @@ var vibesMarch = prompt("How many vibes are you marching?");
 //Prompt asking how many Marimbas you are marching
 var marimbasMarch = prompt("How many marimbas are you marching?");
 //setting up calculation for total number of vibe mallets
-var totalVibes = calcTotalVibes(4,3);
+var totalVibes = calcTotalPair(4,3);
 //setting up calculation for total number of marimba mallets
 var totalMarimba = calcTotalMarimba(4,3);
 //running function for the calculation Vibes
@@ -34,5 +34,5 @@ if(totalMarimba < 48 && totalVibes < 48){
     console.log("You need to buy more Marimba and Vibe Mallets!");
 }else{
     //adding print statement to say you do not need to buy anymore marimba or vibes mallets
-    console.log("You do not need to buy anymore Marimba or Vibe Mallets!");
+    console.log("You do not need to buy anymore Marimba and Vibe Mallets!");
 }
