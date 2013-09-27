@@ -14,4 +14,8 @@ var marimbasMarch = prompt("How many marimbas are you marching?");
 var totalVibes = calcTotalVibes(4,3);
 //setting up calculation for total number of marimba mallets
 var totalMarimba = calcTotalMarimba(4,3);
-//
+//running function for the calculation Vibes
+function calcTotalVibes(totalVPair, totalVDifferentPair){
+    var totalVibes = totalVPair * totalVDifferentPair * vibesMarch;
+    return totalVibes;
+}
