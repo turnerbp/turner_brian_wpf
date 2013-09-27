@@ -16,6 +16,7 @@ var warmUpTotal = prompt("How many warm-ups do you have?");
 var calcTime = function(totalTimeEach, totalWarm){
     //problem that calculates the information
     var time = totalTimeEach * totalWarm * warmupTime;
+    //return the value back to CalcTime
     return time;
 }
 var totalTime = calcTime(warmupLength,warmUpTotal);
