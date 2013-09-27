@@ -12,4 +12,6 @@ var vibesMarch = prompt("How many vibes are you marching?");
 var marimbasMarch = prompt("How many marimbas are you marching?");
 //amount of soft mallets Vibes
 var softVibes = 4
+//amount of medium mallets needed
+var mediumVibes = 4
 
