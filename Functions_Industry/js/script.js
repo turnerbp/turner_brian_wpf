@@ -18,6 +18,7 @@ var totalMarimba = calcTotalMarimba(4,3);
 function calcTotalVibes(totalVPair, totalVDifferentPair){
     //amount of soft,medium and hard mallets needed per person
     var totalVibes = totalVPair * totalVDifferentPair * vibesMarch;
+    //return the value back to calcTotalVibes
     return totalVibes;
 }
 //running function for the calculation of the marimba mallets
