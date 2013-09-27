@@ -14,6 +14,7 @@ var warmupLength = prompt("What is the length of your warm-ups in mins?");
 var warmUpTotal = prompt("How many warm-ups do you have?");
 //calculate the total time
 var calcTime = function(totalTimeEach, totalWarm){
+    //problem that calculates the information
     var time = totalTimeEach * totalWarm * warmupTime;
     return time;
 }
