@@ -21,6 +21,7 @@ var calcTime = function(totalTimeEach, totalWarm){
 }
 //the value for the calcTime
 var totalTime = calcTime(warmupLength,warmUpTotal);
+//print statement to show the results of the problem
 (totalTime > 200) ? console.log("You warm-ups are way to long!") : console.log("You warm-ups are long enough.");
 
 
