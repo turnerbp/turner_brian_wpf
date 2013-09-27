@@ -10,7 +10,8 @@
 var vibesMarch = prompt("How many vibes are you marching?");
 //Prompt asking how many Marimbas you are marching
 var marimbasMarch = prompt("How many marimbas are you marching?");
-//settinf up calculation for total number of vibe mallets
+//setting up calculation for total number of vibe mallets
 var totalVibes = calcTotalVibes(4,3);
+//setting up calculation for total number of marimba mallets
+var totalMarimba = calcTotalMarimba(4,3);
 //
-
