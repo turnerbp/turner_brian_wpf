@@ -28,6 +28,7 @@ function calcTotalMarimba(totalMPair, totalMDifferentPair){
 }
 //if/else statement to print the results
 if(totalMarimba < 48 && totalVibes < 48){
+    //adding a print statement say you should buy more marimba and vibe mallets
     console.log("You need to buy more Marimba and Vibe Mallets!");
 }else{
     console.log("You do not need to buy anymore Marimba or Vibe Mallets!");
