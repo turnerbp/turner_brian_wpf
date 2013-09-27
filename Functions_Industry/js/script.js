@@ -20,6 +20,8 @@ function calcTotalVibes(totalVPair, totalVDifferentPair){
     var totalVibes = totalVPair * totalVDifferentPair * vibesMarch;
     return totalVibes;
 }
-
-
-
+//running function for the calculation of the marimba mallets
+function calcTotalMarimba(totalMPair, totalMDifferentPair){
+    var totalMarimba = totalMPair * totalMDifferentPair * vibesMarch;
+    return totalMarimba;
+}
