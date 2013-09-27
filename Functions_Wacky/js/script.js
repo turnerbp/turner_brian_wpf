@@ -14,4 +14,4 @@ var calcTime = function(totalTimeEach, totalWarm){
     var time = totalTimeEach * totalWarm * warmupTime;
     return time;
 }
-
+var totalTime = calcTime(warmupLength,warmUpTotal);
