@@ -16,3 +16,5 @@ var softVibes = 4
 var mediumVibes = 4
 //amount of hard mallets needed per person
 var hardVibes = 4
+//calculation for total number of mallets per person
+var totalVibes = calculateTotalVibes(softVibes,mediumVibes,hardVibes);
